@@ -56,3 +56,19 @@ public class BookMyShowApplication {
 
 // 3 projects this and paytm,emailService for hystrix project
 // in pom.xml currently no Spring Cloud version compatible with Spring Boot 2.4. Downgrade Spring Boot.
+
+/*
+
+In Spring Boot, the spring-boot-starter-actuator dependency provides built-in endpoints to monitor and interact with your Spring Boot application. These endpoints offer various functionalities such as viewing application health, metrics, environment details, logging configuration, thread dumps, etc. It's commonly used for monitoring and managing applications in production environments.
+
+Here's a brief overview of some commonly used endpoints provided by Spring Boot Actuator:
+
+/actuator/health: Provides information about the health of the application.
+/actuator/info: Displays arbitrary application information.
+/actuator/metrics: Exposes a wide range of metrics about the running application.
+/actuator/env: Displays the current environment properties.
+/actuator/loggers: Allows viewing and modifying logging levels.
+/actuator/trace: Provides information about recent HTTP requests.
+/actuator/threaddump: Outputs a thread dump of the application.
+
+ */
